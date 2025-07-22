@@ -4,6 +4,9 @@ baseURL: "https://blog.achosimeonov.com"
 title: Acho's Blog
 copyright: "© [Angel Simeonov](https://achosimeonov.com)"
 theme: [PaperMod]
+caches:
+  images:
+    dir: :cacheDir/images
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
