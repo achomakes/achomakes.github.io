@@ -29,42 +29,10 @@ languages:
     taxonomies:
       category: categories
       tag: tags
-      series: series
     menu:
       main:
-        # - name: Archive
-        #   url: archives
-        #   weight: 5
-        # - name: Search
-        #   url: search/
-        #   weight: 10
-        # - name: Tags
-        #   url: tags/
-        #   weight: 10
         - name: About Me
           url: https://achosimeonov.com
-
-  # bg:
-  #   languageName: "BG"
-  #   weight: 2
-  #   title: Блогът на Ачо
-  #   taxonomies:
-  #     category: Категории
-  #     tag: Тагове
-  #     series: Серии
-  #   menu:
-  #     main:
-  #       - name: Архив
-  #         url: archives/
-  #         weight: 5
-  #       - name: Тагове
-  #         url: tags
-  #         weight: 10
-  #       - name: Категории
-  #         url: categories
-  #         weight: 10
-  #       - name: За Мен
-  #         url: https://achosimeonov.com
 
 outputs:
   home:
@@ -82,7 +50,7 @@ params:
   disableThemeToggle: true
   ShowShareButtons: false
   ShowReadingTime: true
-  # disableSpecial1stPost: true
+  disableSpecial1stPost: true #false if you want to have a homeInfoParams Section
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -94,12 +62,9 @@ params:
   # comments: false
   images: ["images/cat_cover.jpg"]
 
-  homeInfoParams:
-    Title: "Welcome!"
-    Content: >
-      Welcome to my chaotic blog.
-
-      - I often talk about ttrpgs.
+  # homeInfoParams:
+  #   Title: ""
+  #   Content: ""
 
   # socialIcons:
   #   - name: github
